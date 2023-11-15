@@ -120,8 +120,15 @@ streamlit run Home.py
 
 The application should open in your browser.
 
-
 Enjoy!
+
+## Clean up
+
+To avoid unnecessary cost, you can destroy the resources used in the project:
+
+```
+cdk deploy --all
+```
 
 
 ## Screenshots
