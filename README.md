@@ -1,5 +1,5 @@
 
-# Streamlit demo application for Amazon Bedrock
+# GenAI Streamlit demo multi-modal applications for Amazon Bedrock
 
 This project offers a somple front-end application built with Streamlit to showcase Amazon Bedrock. 
 You can deploy this CDK project in your AWS account. Alternatively, you can run the Streamlit application on your local machine. 
