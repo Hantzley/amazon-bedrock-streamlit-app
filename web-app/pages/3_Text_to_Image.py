@@ -101,7 +101,7 @@ if st.button("Generate Image", key=prompt):
                     "steps": steps,
                     "style_preset": selected_style_presets[n],
                 })
-                modelId = "stability.stable-diffusion-xl"
+                modelId = "stability.stable-diffusion-xl-v1"
 
                 response = boto3_bedrock.invoke_model(body=request, modelId=modelId)
                 response_body = json.loads(response.get("body").read())

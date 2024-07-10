@@ -147,7 +147,7 @@ if uploaded_file is not None:
                         "style_preset": selected_style_presets[n],
                         "init_image": init_image_b64,
                     })
-                    modelId = "stability.stable-diffusion-xl"
+                    modelId = "stability.stable-diffusion-xl-v1"
 
                     response = boto3_bedrock.invoke_model(body=request, modelId=modelId)
                     response_body = json.loads(response.get("body").read())

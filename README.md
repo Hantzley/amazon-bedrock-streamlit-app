@@ -74,6 +74,10 @@ step to activate your virtualenv.
 source .venv/bin/activate
 ```
 
+After the virtual environment is activated, upgrade pip to the latest version:
+```
+python3 -m pip install --upgrade pip
+```
 
 Once the virtualenv is activated, you can install the required dependencies.
 
